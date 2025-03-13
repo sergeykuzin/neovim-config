@@ -1,0 +1,40 @@
+[env]
+TERM = "xterm-256color"
+
+[window]
+decorations = "buttonless"
+dynamic_padding = false
+# opacity = 0.9
+
+[font]
+size = 14.0
+offset.y = 2
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+
+# Colorscheme - Zenbones Forestbones Dark Stark
+[colors.bright]
+black = "#45525C"
+red = "#ED9294"
+green = "#B0CE7B"
+yellow = "#EDC77A"
+blue = "#7AC9C0"
+magenta = "#E5A7C4"
+cyan = "#7DD093"
+white = "#B2A790"
+[colors.cursor]
+cursor = "#EBE2CF"
+text = "#2C343A"
+[colors.normal]
+black = "#2C343A"
+blue = "#7FBCB4"
+cyan = "#83C193"
+green = "#A9C181"
+magenta = "#D69AB7"
+red = "#E67C7F"
+white = "#E7DCC4"
+yellow = "#DDBD7F"
+[colors.primary]
+background = "#2C343A"
+foreground = "#E7DCC4"
