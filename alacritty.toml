@@ -7,11 +7,20 @@ dynamic_padding = false
 # opacity = 0.9
 
 [font]
-size = 14.0
-offset.y = 2
+size = 12.0
+# offset.y = 2
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
+# ШРИФТЫ, КОТОРЫЕ НАИБОЛЕЕ ПОНРАВИЛИСЬ
+# family = "JetBrainsMonoNerdFontMono"
+family = "BlexMonoNerdFontMono"
+# family = "SpaceMonoNerdFontMono"
+
+# ШРИФТЫ, КОТОРЫЕ ПОНРАВИЛИСЬ МЕНЬШЕ
+# family = "GeistMonoNerdFontMono"
+# family = "RecMonoLinearNerdFontMono"
+# family = "SauceCodeProNerdFontMono"
+# family = "VictorMonoNerdFontMono"
 
 # Colorscheme - Zenbones Forestbones Dark Stark
 [colors.bright]
