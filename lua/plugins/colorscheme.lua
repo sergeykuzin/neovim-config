@@ -1,12 +1,29 @@
 return {
     -- add catppuccin
     -- { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
-
+    --
     -- Configure LazyVim to load catppuccin
     -- {
     --     "LazyVim/LazyVim",
     --     opts = {
     --         colorscheme = "catppuccin-frappe",
+    --     },
+    -- },
+
+    -- {
+    --     "folke/tokyonight.nvim",
+    --     opts = {
+    --         transparent = true,
+    --         styles = {
+    --             sidebars = "transparent",
+    --             floats = "transparent",
+    --         },
+    --     },
+    -- },
+    -- {
+    --     "LazyVim/LazyVim",
+    --     opts = {
+    --         colorscheme = "tokyonight",
     --     },
     -- },
 
