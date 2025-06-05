@@ -5,7 +5,7 @@ return {
         opts = {
             highlight = {
                 -- `false` will disable the whole extension
-                enable = false,
+                -- enable = false, -- чтобы отключить подсветку синтаксиса нужно разкомментирвать
                 -- disable = { "javascript" },
 
                 -- list of language that will be disabled
