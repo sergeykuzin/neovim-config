@@ -1,25 +1,25 @@
 return {
     -- Моя светлая тема (создана на базе "rebelot/kanagawa.nvim")
-    {
-         "sergeykuzin/my-dark-color-theme",
-    },
-    {
-        "LazyVim/LazyVim",
-        opts = {
-            colorscheme = "kanagawa-lotus",
-        },
-    },
-
-    -- Моя тёмная тема (создана на базе "rebelot/kanagawa.nvim")
     -- {
-    --     "sergeykuzin/my-dark-color-theme",
+    --      "sergeykuzin/my-dark-color-theme",
     -- },
     -- {
     --     "LazyVim/LazyVim",
     --     opts = {
-    --         colorscheme = "kanagawa",
+    --         colorscheme = "kanagawa-lotus",
     --     },
     -- },
+
+    -- Моя тёмная тема (создана на базе "rebelot/kanagawa.nvim")
+    {
+        "sergeykuzin/my-dark-color-theme",
+    },
+    {
+        "LazyVim/LazyVim",
+        opts = {
+            colorscheme = "kanagawa",
+        },
+    },
 
     -- Очень не плохая тёмная тема (на её базе созданы собственные темы)
     -- {
@@ -51,6 +51,18 @@ return {
     --     "LazyVim/LazyVim",
     --     opts = {
     --         colorscheme = "tokyonight",
+    --     },
+    -- },
+
+    -- Тёмная тема (в VSCode она называется andromeda)
+    -- {
+    --     "nobbmaestro/nvim-andromeda",
+    --     { "tjdevries/colorbuddy.nvim", branch = "dev" }
+    -- },
+    -- {
+    --     "LazyVim/LazyVim",
+    --     opts = {
+    --         colorscheme = "andromeda",
     --     },
     -- },
 }
